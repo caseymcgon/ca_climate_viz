@@ -185,10 +185,12 @@ def animate():
 
     viz1 = make_chart()
 
+    #viz1.save("casey_caClimate1.html")
+
     st.write("""
     # Press the Start Button!
     ## Todo:
-    
+
     1. Fire Data! (Add Fire Data / Identify those years (dots))
     2. Dot size by fire acres burned
     3. --- Make sure the years are correct! (Right now they're 1 year early) ---
@@ -200,12 +202,12 @@ def animate():
     9. Line of best fit in the animation? Sloping down as we move through time?
     10. Upper Right Hand w/ Decades during animation
     11. Label "Hot & Dry" v. "Cold & Wet"
- 
+
     """)
 
     #st.altair_chart(viz1)
 
-    return
+    return #viz1.save("casey_caClimate1.html")
 
 
 if __name__ == '__main__':
