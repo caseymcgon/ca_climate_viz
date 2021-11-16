@@ -26,7 +26,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#">My Charts</a>
+                <a class="navbar-brand" href="#">Climate Charts</a>
                 </div>
             </nav>
         </div>
@@ -38,13 +38,14 @@
                     <p>This chart shows the range of rainfall in two time periods of the user's choosing in between 1895 and 2020. This form is useful for showing cyclical temporal patterns, such as seasonal weather, and specifically comparing severity of dought years. Data: [PRISM Climate Group](https://prism.oregonstate.edu/explorer/bulk.php)`</p>
                     <!-- <div id="d3Chart"></div> -->
                     <iframe width="100%" height="1386" frameborder="0" src="https://observablehq.com/embed/@jennamorabito/dought-in-ca?cells=chart%2Cviewof+myslider1%2Cviewof+myslider2"></iframe>
-                    <a href="https://next.observablehq.com/@observablehq/introduction-to-embedding?collection=%40observablehq%2Fediting-publishing-collaborating">Observable: Introduction to Embedding</a>
                 </div>
             </div>
             <div class="row row-cols-2 py-3">
                 <div class="col-sm">
-                  <h2>Altair Casey</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit velit saepe quam quia est assumenda excepturi, fugiat fuga omnis aut odio consequuntur quod corporis expedita nesciunt optio ad minus voluptas.</p>
+                  <h2>California’s Average Climate from 1895 - 2020</h2>
+                  <p>This chart shows California’s Average Summer Temperature (x-axis) and Average Precipitation (y-axis) for every year since 1895. Years are encoded in colors with lighter colors indicating more recent years. For more detail on each datapoint, you can hover over each of the dots.
+                    Data Courtesy of NOAA’s National Centers for Environmental Information
+                  </p>
                   <div id="altairChartCasey"></div>
 
                   <!DOCTYPE html>
@@ -86,8 +87,8 @@
             </div>
             <div class="row row-cols-2 py-3">
                 <div class="col-sm">
-                    <h2>Altair Chart</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit velit saepe quam quia est assumenda excepturi, fugiat fuga omnis aut odio consequuntur quod corporis expedita nesciunt optio ad minus voluptas.</p>
+                    <h2>Global CO2 Emissions Over Time</h2>
+                    <p>This chart shows CO2 Emissions for the top 10 countries along with the worldwide emission total.</p>
                     <div id="altairChartJoyce"></div>
 
                     <!DOCTYPE html>
@@ -130,19 +131,24 @@
 
             <div class="row row-cols-2 py-3">
               <div class="col-sm">
-                  <h2>Tableau Chart</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit velit saepe quam quia est assumenda excepturi, fugiat fuga omnis aut odio consequuntur quod corporis expedita nesciunt optio ad minus voluptas.</p>
+                  <h2>Animation of California Wildfires from 2013-2020</h2>
+                  <p>This plot shows the size of California Wildfires from 2013-2020, and the year that each fire started.</p>
                   <div class='tableauPlaceholder' id='viz1637032751636' style='position: relative'><noscript><a href='#'><img alt='Year:  2014 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;fire_viz&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='fire_viz&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;fire_viz&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1637032751636');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-                  <a href="https://public.tableau.com/views/NetflixMovies_16160263374560/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link">Tableau: Netflix Movies</a>
               </div>
             </div>
 
             <div class="row row-cols-2 py-3">
               <div class="col-sm">
-                  <h2>Tableau Chart</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit velit saepe quam quia est assumenda excepturi, fugiat fuga omnis aut odio consequuntur quod corporis expedita nesciunt optio ad minus voluptas.</p>
+                  <h2>Animation on Total Carbon Emissions in California Counties (2011-2019)</h2>
+                  <p>
+                    Data for this animation came from the California Air Resources Board (CARB) and were collected during 2011 to 2019. Total carbon (CO2) emissions
+                    show the sum of emissions generated through stationary combustion of fossil fuels and biomass-derived fuels, processed and vented
+                    emissions, geothermal emissions, emissions associated with imported electricity, and emissions associated with final combustion
+                    of fuel reported by fuel suppliers from all California-based facilities that were required to report to the CARB. Total
+                    emissions of zero can mean either the facilities had no reportable emissions for that year or that they are electricity
+                    retail providers, who were not required to report emissions to the CARB.
+                  </p>
                   <div class='tableauPlaceholder' id='viz1637040451431' style='position: relative'><noscript><a href='#'><img alt='Total CO2 Emissions in California over Time, by CountyYear: 2011 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;co2_emissions_by_county_CA&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='co2_emissions_by_county_CA&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;co2_emissions_by_county_CA&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1637040451431');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-                  <a href="https://public.tableau.com/views/NetflixMovies_16160263374560/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link">Tableau: Netflix Movies</a>
               </div>
             </div>
         </div>
