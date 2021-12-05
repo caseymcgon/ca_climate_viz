@@ -157,10 +157,10 @@
         </article>
 
         <figure>
-          <div class="content-1 hide">
+          <div class="step-content hide">
             <iframe width="45%" height="800" frameborder="0" src="https://observablehq.com/embed/@jennamorabito/dought-in-ca?cells=chart%2Cviewof+myslider1%2Cstyle"></iframe>
           </div>
-          <div class="content-2 hide">
+          <div class="step-content hide ">
             <div id="altairChartCasey"></div>
 
             <!DOCTYPE html>
@@ -199,10 +199,10 @@
             </body>
             </html>
           </div>
-          <div class="content-3 hide">
+          <div class="step-content hide">
             Testing testing 3!
           </div>
-          <div class="content-4 hide">
+          <div class="step-content hide">
             Testing testing 4!
           </div>
         </figure>
@@ -253,7 +253,7 @@
 
         var figure = scrolly.select("figure");
 
-        figure.selectAll("div").classed("hide", function(d, i) {  // add class to active viz
+        figure.selectAll("div.step-content").classed("hide", function(d, i) {  // add class to active viz
           return i != response.index;
         });
 
