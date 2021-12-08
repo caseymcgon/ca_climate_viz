@@ -116,7 +116,7 @@ nav {
 #intro {
   font-family: Avenir;
   font-size: 18px;
-  margin-bottom: 320px;
+  margin-bottom: 50px;
 }
 
 #outro {
@@ -134,6 +134,23 @@ nav {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin-top: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  row-gap: 50px;
+  height: 100%;
+  width:80%;
+}
+
+.flex-top-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-content: space-between; */
   margin: 0;
   position: absolute;
   top: 50%;
@@ -142,6 +159,7 @@ nav {
   transform: translate(-50%, -50%);
   row-gap: 50px;
   height: 100%;
+  width:80%;
 }
 
 .flex-graph {
@@ -151,6 +169,9 @@ nav {
 }
 
 .intro-text {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
   font-family: Avenir;
   font-size: 18px;
   text-align: center;

@@ -155,7 +155,12 @@
         <p class="intro__dek">
           Start scrolling to see the effects here at home.
         </p>
+        <p class="intro__dek">
+          by Casey McGonigle, Jenna Morabito, Kaavya Shah, Meer Wu, Joyce Li
+        </p>
       </section>
+
+      <hr>
 
       <section id="scrolly">
         <article>
@@ -167,7 +172,7 @@
               <h3>Interaction tips:</h3>
               <ul>
                 <li>Click on the dropdown menu below the graph to filter out the line for “Worldwide” (and zoom in on country-level data)</li>
-                <li>Click on the specific countries in the legend on the right to highlight that country in the visualization.</li>
+                <li>Click on the specific countries in the legend on the right to highlight that country in the visualization. To deselect a country, click outside of the legend.</li>
               </ul>
               <a href="https://github.com/owid/co2-data">Data: Our World in Data</a>
             </div>
@@ -179,8 +184,7 @@
             <div class="tips">
               <h3>Interaction tips:</h3>
               <ul>
-                <li>Click through the chart filter below the map on the left to choose a year to compare CO2  emissions from the selected year (on the left) to 2019 emissions (on the right).</li>
-                </li>
+                <li>Click on the chart filter below the map on the left to compare the selected year’s CO<sub>2</sub> emissions with 2019’s CO<sub>2</sub> emissions (on the right).</li>
               </ul>
               <a href="https://ww2.arb.ca.gov/our-work/programs/ghg-inventory-program">Data: California Air Resources Board</a>
             </div>
@@ -192,7 +196,8 @@
             <div class="tips">
               <h3>Interaction tips:</h3>
               <ul>
-                <li>Adjust the slider on the top to examine any time period (represented in orange) and compare it to the blue time period, which represents recent rainfall trends from 2014-2020.</li>
+                <li>Adjust the slider on the top to compare any time period (represented in yellow) with the current time period from 2014-2020 (represented in blue).</li>
+                <li>Note the darker yellow and blue lines in the chart. These represent the average monthly rainfall within the selected years.</li>
               </ul>
               <a href="https://prism.oregonstate.edu/explorer/bulk.php">Data: PRISM Climate Group</a>
             </div>
@@ -204,8 +209,8 @@
             <div class="tips">
               <h3>Interaction tips:</h3>
               <ul>
-                <li>Mouseover counties to identify the county name</li>
-                <li>Scroll left and right to see more 2020 and 2021</li>
+                <li>Mouseover counties to identify the county name, and the percent of the county in extreme (D3) or exceptional (D4) drought.</li>
+                <li>Scroll right to see more recent years.</li>
               </ul>
               <a href="https://droughtmonitor.unl.edu/About.aspx">Data: NOAA and NIDIS</a>
             </div>
@@ -217,12 +222,14 @@
             <div class="tips">
               <h3>Interaction tips:</h3>
               <ul>
-                <li>Mouseover each dot to get details on the corresponding year, temperature, and precipitation</li>
-                <li>Click and drag the slider below the main chart to filter on year range</li>
-                <li>Warning: unlike most scatterplots, time is not on the X-axis -- that’s the temperature. Instead, each dot is colored according to its decade -- the lighter they are the more recent they are.</li>
-                <a href="https://www.fire.ca.gov/media/4jandlhh/top20_acres.pdf">Data: Cal Fire</a>
-                <a href="https://www.ncdc.noaa.gov/cag/">Data: NOAA</a>
+                <li>Mouseover each dot to get details on the corresponding year, temperature, and precipitation.</li>
+                <li>Filter by time period by clicking and dragging the slider below the main chart.</li>
+                <li>Warning: unlike most scatterplots, time is not on the X-axis — that’s the temperature. Instead, each dot is colored according to its decade.</li>
               </ul>
+              <p>
+                Fun Fact: You may wonder how so many big fires burned in 2021 when it had such a wet summer. In reality, the summer
+                wasn’t wet. The state only averaged 0.99 inches of rain before an “atmospheric river” dumped over 3.5 inches on the state in the last 10 days of October.
+              </p>
               <a href="https://www.fire.ca.gov/media/4jandlhh/top20_acres.pdf">Data: Cal Fire</a>
               <a href="https://www.ncdc.noaa.gov/cag/">Data: NOAA</a>
             </div>
@@ -234,10 +241,10 @@
             <div class="tips">
               <h3>Interaction tips:</h3>
               <ul>
-                <li>Press “Play” in the top left corner or use the slider to see every fire in the last 8 years</li>
+                <li>Press “Play” in the top left corner or use the slider to see every fire in the last 8 years.</li>
                 <li>Mouseover any fire you’re interested in to get details on the acres burned, the day of fire ignition, and the county.</li>
-              <a href="https://www.fire.ca.gov/incidents/">Data: Cal Fire</a>
               </ul>
+              <a href="https://www.fire.ca.gov/incidents/">Data: Cal Fire</a>
             </div>
           </div>
           <div class="step" data-step="13">
@@ -247,7 +254,8 @@
             <div class="tips">
               <h3>Interaction tips:</h3>
               <ul>
-                <li>Mouseover at any point you’re interested in to get details on emissions in California</li>
+                <li>Mouseover anywhere on the graph you’re interested in to get details on emissions in California.</li>
+                <li>Mouseover the red line to see the start year of the cap-and-trade program.</li>
               <a href="https://ww2.arb.ca.gov/our-work/programs/ghg-inventory-program">Data: California Air Resources Board</a>
               </ul>
             </div>
@@ -259,21 +267,22 @@
 
         <figure>
           <div class="step-content hide">
-            <div class="flex-section">
+            <div class="flex-top-section">
               <div class="intro-text">
-                Over recent years, Earth’s climate has been getting warmer — in the last 100 years alone,
-                Earth’s average temperature has increased by 1 degree Fahrenheit.
-                That may not seem like much at first glance, but as the temperature of the Earth ticks up we start
-                to see drastic changes in our natural surroundings. Glaciers are melting, oceans are rising,
-                and natural disasters are becoming more common.
-              </div>
-              <div class="intro-text">One of the biggest drivers of climate change is human activity, or more specifically the carbon
-                dioxide (CO2) emissions that come with it. Burning fossil fuels, deforestation, manufacturing and
-                other activities all release high volumes of CO2 into the atmosphere. Increases in CO2 in the
-                atmosphere are responsible for ⅔ of the energy imbalance that is causing Earth’s temperature to rise.
+                Earth’s climate has been getting warmer — since 1981, Earth’s average temperature has risen an average
+                of 0.32 degrees Fahrenheit per decade, and 2020 was one of the warmest years ever recorded in our planet’s
+                history<sup>1</sup>. As the temperature of the Earth ticks up, we start to see drastic changes in our natural
+                surroundings: glaciers are melting, oceans are rising, and natural disasters are becoming more common<sup>2</sup>.
               </div>
               <div class="intro-text">
-                By measuring yearly global CO2 emissions, we can begin to investigate the magnitude of climate change. Below is a graph of the CO2 production from the top 10 emitting countries
+                One of the main drivers of climate change is human activity, or more specifically the carbon dioxide (CO<sub>2</sub>)
+                 emissions that come with it. Burning fossil fuels, deforestation, manufacturing and other activities all release high
+                 volumes of CO<sub>2</sub> into the atmosphere<sup>3</sup>. Increases in carbon emissions are responsible for two-thirds
+                 of the energy imbalance that is causing Earth’s temperature to rise<sup>4</sup>.
+              </div>
+              <div class="intro-text">
+                By measuring yearly global CO<sub>2</sub> emissions, we can begin to investigate the magnitude of climate change.
+                Below is a graph of the CO<sub>2</sub> production from the top 10 emitting countries.
               </div>
             </div>
           </div>
@@ -285,16 +294,22 @@
           <div class="step-content hide">
             <div class="flex-section">
               <div class="intro-text">
-                As you can see, worldwide CO2 emissions have increased exponentially since the 1950’s.
-                The US is currently the second highest global CO2 emitter, with a general increase in CO2 emissions since the 1900s.
+                As you can see, worldwide CO<sub>2</sub> emissions have increased exponentially since the 1950’s.
+                The US is currently the second highest global CO<sub>2</sub> emitter, with a general increase in CO<sub>2</sub> emissions since the 1900s.
               </div>
               <div class="intro-text">
                 As students at UC Berkeley, we’re interested in zooming in on our home state California.
-                One way to examine CO2 emissions more closely on a state level is through cap and trade policies.
-                [explanation of cap and trade, and relate it to California].
+                One way to examine CO<sub>2</sub> emissions more closely on a state level is through cap
+                and trade policies. According to the California Air Resources Board (CARB)<sup>5</sup>,
+                California’s Cap-and-Trade program establishes a declining limit on the state’s greenhouse
+                gas emissions. Starting from 2013, each facility participating in the Cap-and-Trade program
+                receives limited amounts of state-permitted emissions called “allowances” that decrease every
+                year, amounting to a firm <i>cap</i> of total state emissions that declines over time. Facilities
+                that emit more than their allowances are heavily penalized. However, companies can buy more allowances
+                from state auctions to avoid the heavy fines or <i>trade</i> their unused allowances to profit.
               </div>
               <div class="intro-text">
-                From cap and trade data, we are able to analyze CO2 emissions reported for different California counties from 2011-2019.
+                From cap and trade data, we are able to analyze CO<sub>2</sub> emissions reported for different California counties from 2011-2019.
               </div>
             </div>
           </div>
@@ -338,8 +353,8 @@
           <div class="step-content hide">
             <div class="flex-section">
               <div class="intro-text">
-                To truly understand the effects of increased CO2 emissions and global warming, we need to look into how
-                California’s natural weather patterns and resources have changed in recent years.
+                To truly understand the effects of increased CO<sub>2</sub> emissions and global warming, we need
+                to look into how California’s natural weather patterns and resources have changed in recent years.
                 Below is an interactive graph of precipitation over different periods of time.
               </div>
             </div>
@@ -353,13 +368,13 @@
             <div class="flex-section">
               <div class="intro-text">
                 All those recent dry years have resulted in droughts. In fact, 2011-2015 and 2020-present have
-                been 2 of the most intense droughts in California history according to NOAA. As of today,
-                Dec 6,202, 80.3% of the state is experiencing D3 “Extreme Drought” with 28.3% of the state in D4 “Exceptional Drought”
+                been 2 of the most intense droughts in California history<sup>6</sup>. As of today,
+                December 8, 2021, 80.3% of the state is experiencing D3 “Extreme Drought” with 28.3% of the state in D4 “Exceptional Drought”.
               </div>
                 <div class="intro-text">
-                  The visualization below (with limited data courtesy of ______) presents California’s drought level since
-                  2014 on a yearly county-by-county basis. Look at the counties that have been most affected by drought --
-                  the darker ones -- in the last 7 years. Are they the counties you expect?
+                  The visualization below presents California’s drought level since 2014 on a yearly
+                  county-by-county basis. Look at the counties that have been most affected by drought
+                  -- the darker ones -- in the last 7 years. Are they the counties you expect?
                 </div>
             </div>
           </div>
@@ -369,15 +384,15 @@
           <div class="step-content hide">
             <div class="flex-section">
               <div class="intro-text">
-                Unfortunately, California isn’t only getting drier. It is also becoming hotter as we move
-                further into the anthropocene. In the summer, California’s fire climate is becoming increasingly
-                fierce. Of the last ten hottest summers since 1895, all ten have occurred since 2000. Those
-                years also account for 15 of California’s 20 largest fires (by total acreage burned) since 1932 .
+                Unfortunately, California isn’t only getting drier. It is also becoming hotter
+                as we move further into the anthropocene. In the summer, California’s fire
+                climate is becoming increasingly fierce. Of the last ten hottest summers since
+                1895, all ten have occurred since 2000<sup>7</sup>. Those years also account for
+                15 of California’s 20 largest fires (by total acreage burned) since 1932<sup>8</sup>.
               </div>
                 <div class="intro-text">
-                  This chart shows exactly that -- California’s fire climate from May-October every year since 1895
-                  with encodings of the year, temperature, precipitation, and Top 20 Fires. You can
-                  also filter by time period on this graph using the slider below the chart
+                  This chart shows exactly that — California’s fire climate from May-October every year
+                  since 1895 with encodings of the year, temperature, precipitation, and Top 20 Fires.
                 </div>
             </div>
           </div>
@@ -421,19 +436,15 @@
           <div class="step-content hide">
             <div class="flex-section">
               <div class="intro-text">
-                You may wonder how so many big fires burned in 2021 when it had such a wet summer.
-                In reality, the summer wasn’t wet. The state only averaged 0.99 inches of rain
-                before an “atmospheric river” dumped over 3.5 inches on the state in the last 10 days of October.
-              </div>
-              <div class="intro-text">
-                As you might expect with this new climate, our state is not only setting records for the
-                number of big fires each year but also redefining what constitutes a big fire. We had never
-                seen a fire burn more than 275,000 acres before 2017. It’s occurred 7 times since with 2020’s
-                August Complex Fire and 2021’s Dixie Fire burning more than 950,000 acres each.
+                As you might expect with this new climate, our state is not only setting records
+                for the number of big fires each year but also redefining what constitutes a big
+                fire. We had never seen a fire burn more than 275,000 acres before 2017. It’s
+                occurred 7 times since then with 2020’s August Complex Fire and 2021’s Dixie
+                Fire burning more than 950,000 acres each<sup>8</sup>.
               </div>
               <div class="intro-text">
                 Check out how those new larger fires are starting to define California’s fire landscape
-                 in the viz below. Our data source (CAL FIRE) has data on the date, location, and size of every California fire since 2013
+                in the viz below. Cal Fire has data on the date, location, and size of every California fire from 2013-2020.
               </div>
             </div>
           </div>
@@ -445,9 +456,9 @@
               <div class="intro-text">
                 The best time to reduce greenhouse gas emissions was 100 years ago. The second best time is now.
                 Though we’ve done nothing but increase our production over the past century, California has finally
-                turned the tide. With the adoption of Cap and Trade, the Golden State in 2019 (before the pandemic)
-                generated roughly 50 million fewer tons of CO2 emissions each year than in 2012. There’s hope yet --
-                especially when we’re the lucky ones in position to confront and build the solutions to this climate crisis.
+                turned the tide. With the adoption of Cap and Trade, the Golden State in 2019 — before the pandemic —
+                generated roughly 50 million fewer tons of CO<sub>2</sub> emissions each year than in 2012. There’s
+                hope yet — especially when we’re the lucky ones in position to confront and build the solutions to this climate crisis.
               </div>
             </div>
           </div>
@@ -465,10 +476,10 @@
               <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
             </head>
             <body>
-              <div id="visMeer"></div>
+              <div id="vis"></div>
               <script>
                 (function(vegaEmbed) {
-                  var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-d6b39d6e3f39443ea12fcea56543cf86"}, "mark": {"type": "area", "tooltip": true}, "encoding": {"color": {"type": "nominal", "field": "Covered Emissions", "scale": {"range": ["#285272", "#febc38"]}}, "order": {"type": "nominal", "field": "Covered Emissions", "sort": "ascending"}, "x": {"type": "ordinal", "axis": {"labelAngle": 0}, "field": "Report\nYear", "title": "Year"}, "y": {"type": "quantitative", "field": "CO2 Emissions", "title": "CO2 Emissions (metric tons)"}}, "height": 300, "title": "Total CO2 Emissions in California over Time", "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-d6b39d6e3f39443ea12fcea56543cf86": [{"Report\nYear": 2011, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 353279252}, {"Report\nYear": 2011, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 74073090}, {"Report\nYear": 2012, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 355417517}, {"Report\nYear": 2012, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 85812298}, {"Report\nYear": 2013, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 348502683}, {"Report\nYear": 2013, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 90752642}, {"Report\nYear": 2014, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 342944389}, {"Report\nYear": 2014, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 92868634}, {"Report\nYear": 2015, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 340426795}, {"Report\nYear": 2015, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 91992424}, {"Report\nYear": 2016, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 324065927}, {"Report\nYear": 2016, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 88017355}, {"Report\nYear": 2017, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 320583407}, {"Report\nYear": 2017, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 83869210}, {"Report\nYear": 2018, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 319882522}, {"Report\nYear": 2018, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 84762775}, {"Report\nYear": 2019, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 311192374}, {"Report\nYear": 2019, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 85717444}]}};
+                  var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-89eb425fad691069f265719d883405e1"}, "mark": "area", "encoding": {"color": {"type": "nominal", "field": "Covered Emissions", "scale": {"range": ["#285272", "#febc38"]}, "title": ["Compliancy to the CA", "Cap-and-Trade Program"]}, "order": {"type": "nominal", "field": "Covered Emissions", "sort": "ascending"}, "tooltip": [{"type": "quantitative", "field": "CO2 Emissions (Megatonne)", "format": ",.2f"}, {"type": "ordinal", "field": "Report\nYear", "title": "Year"}], "x": {"type": "ordinal", "axis": {"labelAngle": 0}, "field": "Report\nYear", "title": "Year"}, "y": {"type": "quantitative", "field": "CO2 Emissions (Megatonne)"}}, "height": 500, "selection": {"selector082": {"type": "single"}}, "title": "Total CO2 Emissions in California over Time", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-89eb425fad691069f265719d883405e1": [{"Report\nYear": 2011, "Covered Emissions": "Compliant", "CO2 Emissions": 353279252, "CO2 Emissions (Megatonne)": 353.279252}, {"Report\nYear": 2011, "Covered Emissions": "Non-compliant", "CO2 Emissions": 74073090, "CO2 Emissions (Megatonne)": 74.07309}, {"Report\nYear": 2012, "Covered Emissions": "Compliant", "CO2 Emissions": 355417517, "CO2 Emissions (Megatonne)": 355.417517}, {"Report\nYear": 2012, "Covered Emissions": "Non-compliant", "CO2 Emissions": 85812298, "CO2 Emissions (Megatonne)": 85.812298}, {"Report\nYear": 2013, "Covered Emissions": "Compliant", "CO2 Emissions": 348502683, "CO2 Emissions (Megatonne)": 348.502683}, {"Report\nYear": 2013, "Covered Emissions": "Non-compliant", "CO2 Emissions": 90752642, "CO2 Emissions (Megatonne)": 90.752642}, {"Report\nYear": 2014, "Covered Emissions": "Compliant", "CO2 Emissions": 342944389, "CO2 Emissions (Megatonne)": 342.944389}, {"Report\nYear": 2014, "Covered Emissions": "Non-compliant", "CO2 Emissions": 92868634, "CO2 Emissions (Megatonne)": 92.868634}, {"Report\nYear": 2015, "Covered Emissions": "Compliant", "CO2 Emissions": 340426795, "CO2 Emissions (Megatonne)": 340.426795}, {"Report\nYear": 2015, "Covered Emissions": "Non-compliant", "CO2 Emissions": 91992424, "CO2 Emissions (Megatonne)": 91.992424}, {"Report\nYear": 2016, "Covered Emissions": "Compliant", "CO2 Emissions": 324065927, "CO2 Emissions (Megatonne)": 324.065927}, {"Report\nYear": 2016, "Covered Emissions": "Non-compliant", "CO2 Emissions": 88017355, "CO2 Emissions (Megatonne)": 88.017355}, {"Report\nYear": 2017, "Covered Emissions": "Compliant", "CO2 Emissions": 320583407, "CO2 Emissions (Megatonne)": 320.583407}, {"Report\nYear": 2017, "Covered Emissions": "Non-compliant", "CO2 Emissions": 83869210, "CO2 Emissions (Megatonne)": 83.86921}, {"Report\nYear": 2018, "Covered Emissions": "Compliant", "CO2 Emissions": 319882522, "CO2 Emissions (Megatonne)": 319.882522}, {"Report\nYear": 2018, "Covered Emissions": "Non-compliant", "CO2 Emissions": 84762775, "CO2 Emissions (Megatonne)": 84.762775}, {"Report\nYear": 2019, "Covered Emissions": "Compliant", "CO2 Emissions": 311192374, "CO2 Emissions (Megatonne)": 311.192374}, {"Report\nYear": 2019, "Covered Emissions": "Non-compliant", "CO2 Emissions": 85717444, "CO2 Emissions (Megatonne)": 85.717444}]}};
                   var embedOpt = {"mode": "vega-lite"};
 
                   function showError(el, error){
@@ -479,8 +490,8 @@
                                       + '</div>');
                       throw error;
                   }
-                  const el = document.getElementById('visMeer');
-                  vegaEmbed("#visMeer", spec, embedOpt)
+                  const el = document.getElementById('vis');
+                  vegaEmbed("#vis", spec, embedOpt)
                     .catch(error => showError(el, error));
                 })(vegaEmbed);
 
@@ -491,19 +502,15 @@
           <div class="step-content hide">
             <div class="flex-section">
               <div class="intro-text">
-                We are a group of graduate students at UC Berkeley working towards Masters degrees in
-                Information & Data Science (5th Year MIDS Class of ‘22). When presented with the chance
-                to make a visualization website as part of our W209 Data Visualizations course, we jumped
-                at the opportunity to explore climate change in our home state and to bring these visualizations
-                to life. Thanks for visiting our site, we hope you learned something new!
+                Who we are
               </div>
-              <ul>
-                <li>Joyce Li</li>
-                <li>Casey McGonigle</li>
-                <li>Kaavya Shah</li>
-                <li>Meer Wu</li>
-                <li>Jenna Morabito</li>
-              </ul>
+              <div class="intro-text">
+                We are a group of graduate students at UC Berkeley working towards Masters degrees
+                in Information & Data Science (5th Year MIDS Class of ‘22). When presented with the
+                chance to make a visualization website as part of our W209 Data Visualizations course,
+                we jumped at the opportunity to explore climate change in our home state and to bring
+                these visualizations to life. Thanks for visiting our site, we hope you learned something new!
+              </div>
             </div>
           </div>
         </figure>
