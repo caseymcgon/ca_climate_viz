@@ -35,8 +35,8 @@
         position: sticky;
         display: flex;
         flex-direction: column;
+        margin: 10vh;
         width: 100%;
-        margin: 0;
         -webkit-transform: translate3d(0, 0, 0);
         -moz-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -64,6 +64,7 @@
 
       .step {
         margin: 0 auto 2rem auto;
+        width: 40vh;
         background-color: #3b3b3b; /* dark grey side box color */
         color: #fff;
       }
@@ -86,7 +87,7 @@
   </head>
 
   <body>
-    <a
+    <!-- <a
       href="https://github.com/russellgoldenberg/scrollama"
       target="_blank"
       class="github-corner"
@@ -110,9 +111,9 @@
           fill="currentColor"
           class="octo-body"
         ></path></svg
-    ></a>
+    ></a> -->
     <main>
-      <nav>
+      <!-- <nav>
         <a href="https://github.com/russellgoldenberg/scrollama"
           >scrollama.js</a
         >
@@ -134,7 +135,7 @@
             >Mobile Pattern</a
           >
         </div>
-      </nav>
+      </nav> -->
       <section id="intro">
         <h1 class="intro__hed">Exploring Climate Change in California</h1>
         <p class="intro__dek">
@@ -150,77 +151,223 @@
             </p>
           </div>
           <div class="step" data-step="2">
-            <p>
-              Click on the dropdown menu below the graph to filter out the line for “Worldwide” (and zoom in on country-level data)
-              Click on the specific countries in the legend on the right to highlight that country in the visualization.
-            </p>
+            <h3>How to interact with this viz:</h3>
+            <ul>
+              <li>Click on the dropdown menu below the graph to filter out the line for “Worldwide” (and zoom in on country-level data)</li>
+              <li>Click on the specific countries in the legend on the right to highlight that country in the visualization.</li>
+            </ul>
           </div>
           <div class="step" data-step="3">
             <p>
-              Click through the chart filter below the map on the left to choose a year to compare CO2  emissions from the selected year (on the left) to 2019 emissions (on the right).
+              Intro
             </p>
           </div>
           <div class="step" data-step="4">
-            <p>Adjust the slider on the top to examine any time period (represented in orange) and compare it to the blue time period, which represents recent rainfall trends from 2014-2020.</p>
+            <h3>How to interact with this viz:</h3>
+            <ul>
+              <li>Click through the chart filter below the map on the left to choose a year to compare CO2  emissions from the selected year (on the left) to 2019 emissions (on the right).</li>
+            </ul>
           </div>
           <div class="step" data-step="5">
             <p>
-              Mouseover counties to identify the county name,
-              Scroll left and right to see more 2020 and 2021
+              Intro
             </p>
           </div>
           <div class="step" data-step="6">
-            <p>
-              Mouseover each dot to get details on the corresponding year, temperature, and precipitation
-              Click and drag the slider below the main chart to filter on year range
-              Warning: unlike most scatterplots, time is not on the X-axis -- that’s the temperature. Instead, each dot is colored according to its decade -- the lighter they are the more recent they are.
-            </p>
+            <h3>How to interact with this viz:</h3>
+            <ul>
+              <li>Adjust the slider on the top to examine any time period (represented in orange) and compare it to the blue time period, which represents recent rainfall trends from 2014-2020.</li>
+            </ul>
           </div>
           <div class="step" data-step="7">
             <p>
-              Press “Play” in the top left corner or use the slider to see every fire in the last 8 years
-              Mouseover any fire you’re interested in to get details on the acres burned, the day of fire ignition, and the county.
+              Intro
             </p>
           </div>
           <div class="step" data-step="8">
+            <h3>How to interact with this viz:</h3>
+            <ul>
+              <li>Mouseover counties to identify the county name</li>
+              <li>Scroll left and right to see more 2020 and 2021</li>
+            </ul>
+          </div>
+          <div class="step" data-step="9">
+            <p>
+              Intro
+            </p>
+          </div>
+          <div class="step" data-step="10">
+            <h3>How to interact with this viz:</h3>
+            <ul>
+              <li>Mouseover each dot to get details on the corresponding year, temperature, and precipitation</li>
+              <li>Click and drag the slider below the main chart to filter on year range</li>
+              <li>Warning: unlike most scatterplots, time is not on the X-axis -- that’s the temperature. Instead, each dot is colored according to its decade -- the lighter they are the more recent they are.</li>
+            </ul>
+          </div>
+          <div class="step" data-step="11">
+            <p>
+              Intro
+            </p>
+          </div>
+          <div class="step" data-step="12">
+            <h3>How to interact with this viz:</h3>
+            <ul>
+              <li>Press “Play” in the top left corner or use the slider to see every fire in the last 8 years</li>
+              <li>Mouseover any fire you’re interested in to get details on the acres burned, the day of fire ignition, and the county.</li>
+            </ul>
+          </div>
+          <div class="step" data-step="13">
+            <p>
+              Intro
+            </p>
+          </div>
+          <div class="step" data-step="14">
             <p>STEP 7</p>
           </div>
         </article>
 
         <figure>
           <div class="step-content hide">
-              <p>
+            <div class="flex-section">
+              <div class="intro-text">
                 Over recent years, Earth’s climate has been getting warmer — in the last 100 years alone,
                 Earth’s average temperature has increased by 1 degree Fahrenheit.
                 That may not seem like much at first glance, but as the temperature of the Earth ticks up we start
                 to see drastic changes in our natural surroundings. Glaciers are melting, oceans are rising,
-                and natural disasters are becoming more common.</p>
-                <p>One of the biggest drivers of climate change is human activity, or more specifically the carbon
-                  dioxide (CO2) emissions that come with it. Burning fossil fuels, deforestation, manufacturing and
-                  other activities all release high volumes of CO2 into the atmosphere. Increases in CO2 in the
-                  atmosphere are responsible for ⅔ of the energy imbalance that is causing Earth’s temperature to rise.</p>
-
+                and natural disasters are becoming more common.
+              </div>
+              <div class="intro-text">One of the biggest drivers of climate change is human activity, or more specifically the carbon
+                dioxide (CO2) emissions that come with it. Burning fossil fuels, deforestation, manufacturing and
+                other activities all release high volumes of CO2 into the atmosphere. Increases in CO2 in the
+                atmosphere are responsible for ⅔ of the energy imbalance that is causing Earth’s temperature to rise.
+              </div>
+              <div class="intro-text">
+                By measuring yearly global CO2 emissions, we can begin to investigate the magnitude of climate change. Below is a graph of the CO2 production from the top 10 emitting countries
+              </div>
+            </div>
           </div>
           <div class="step-content hide">
             Joyce's viz!
           </div>
           <div class="step-content hide">
+            <div class="flex-section">
+              <div class="intro-text">
+                As you can see, worldwide CO2 emissions have increased exponentially since the 1950’s.
+                The US is currently the second highest global CO2 emitter, with a general increase in CO2 emissions since the 1900s.
+              </div>
+              <div class="intro-text">
+                As students at UC Berkeley, we’re interested in zooming in on our home state California.
+                One way to examine CO2 emissions more closely on a state level is through cap and trade policies.
+                [explanation of cap and trade, and relate it to California].
+              </div>
+              <div class="intro-text">
+                From cap and trade data, we are able to analyze CO2 emissions reported for different California counties from 2011-2019.
+              </div>
+            </div>
+          </div>
+          <div class="step-content hide">
             Meer's air emissions viz!
+          </div>
+          <div class="step-content hide">
+            <div class="flex-section">
+              <div class="intro-text">
+                To truly understand the effects of increased CO2 emissions and global warming, we need to look into how
+                California’s natural weather patterns and resources have changed in recent years.
+                Below is an interactive graph of precipitation over different periods of time.
+              </div>
+            </div>
           </div>
           <div class="step-content hide">
             <iframe width="45%" height="800" frameborder="0" src="https://observablehq.com/embed/@jennamorabito/dought-in-ca?cells=chart%2Cviewof+myslider1%2Cstyle"></iframe>
           </div>
           <div class="step-content hide">
+            <div class="flex-section">
+              <div class="intro-text">
+                All those recent dry years have resulted in droughts. In fact, 2011-2015 and 2020-present have
+                been 2 of the most intense droughts in California history according to NOAA. As of today,
+                Dec 6,202, 80.3% of the state is experiencing D3 “Extreme Drought” with 28.3% of the state in D4 “Exceptional Drought”
+              </div>
+                <div class="intro-text">
+                  The visualization below (with limited data courtesy of ______) presents California’s drought level since
+                  2014 on a yearly county-by-county basis. Look at the counties that have been most affected by drought --
+                  the darker ones -- in the last 7 years. Are they the counties you expect?
+                </div>
+            </div>
+          </div>
+          <div class="step-content hide">
             Meer's drought viz!
+          </div>
+          <div class="step-content hide">
+            <div class="flex-section">
+              <div class="intro-text">
+                Unfortunately, California isn’t only getting drier. It is also becoming hotter as we move
+                further into the anthropocene. In the summer, California’s fire climate is becoming increasingly
+                fierce. Of the last ten hottest summers since 1895, all ten have occurred since 2000. Those
+                years also account for 15 of California’s 20 largest fires (by total acreage burned) since 1932 .
+              </div>
+                <div class="intro-text">
+                  This chart shows exactly that -- California’s fire climate from May-October every year since 1895
+                  with encodings of the year, temperature, precipitation, and Top 20 Fires. You can
+                  also filter by time period on this graph using the slider below the chart
+                </div>
+            </div>
           </div>
           <div class="step-content hide">
             Casey's viz!
           </div>
           <div class="step-content hide">
-            Kaavya's fire viz!
+            <div class="flex-section">
+              <div class="intro-text">
+                You may wonder how so many big fires burned in 2021 when it had such a wet summer.
+                In reality, the summer wasn’t wet. The state only averaged 0.99 inches of rain
+                before an “atmospheric river” dumped over 3.5 inches on the state in the last 10 days of October.
+              </div>
+              <div class="intro-text">
+                As you might expect with this new climate, our state is not only setting records for the
+                number of big fires each year but also redefining what constitutes a big fire. We had never
+                seen a fire burn more than 275,000 acres before 2017. It’s occurred 7 times since with 2020’s
+                August Complex Fire and 2021’s Dixie Fire burning more than 950,000 acres each.
+              </div>
+              <div class="intro-text">
+                Check out how those new larger fires are starting to define California’s fire landscape
+                 in the viz below. Our data source (CAL FIRE) has data on the date, location, and size of every California fire since 2013
+              </div>
+            </div>
+          </div>
+          <div class="step-content hide">
+            <iframe width="100%" height="1030" frameborder="0"  src="https://observablehq.com/embed/be844d74084d48b8?cells=chart%2Ckey%2Cviewof+date%2Cstyle"></iframe>
+          </div>
+          <div class="step-content hide">
+            <div class="flex-section">
+              <div class="intro-text">
+                The best time to reduce greenhouse gas emissions was 100 years ago. The second best time is now.
+                Though we’ve done nothing but increase our production over the past century, California has finally
+                turned the tide. With the adoption of Cap and Trade, the Golden State in 2019 (before the pandemic)
+                generated roughly 50 million fewer tons of CO2 emissions each year than in 2012. There’s hope yet --
+                especially when we’re the lucky ones in position to confront and build the solutions to this climate crisis.
+              </div>
+            </div>
           </div>
           <div class="step-content hide">
             Meer's hopeful viz!
+          </div>
+          <div class="step-content hide">
+            <div class="flex-section">
+              <div class="intro-text">
+                We are a group of graduate students at UC Berkeley working towards Masters degrees in
+                Information & Data Science (5th Year MIDS Class of ‘22). When presented with the chance
+                to make a visualization website as part of our W209 Data Visualizations course, we jumped
+                at the opportunity to explore climate change in our home state and to bring these visualizations
+                to life. Thanks for visiting our site, we hope you learned something new!
+              </div>
+              <ul>
+                <li>Joyce Li</li>
+                <li>Casey McGonigle</li>
+                <li>Kaavya Shah</li>
+                <li>Meer Wu</li>
+                <li>Jenna Morabito</li>
+              </ul>
+            </div>
           </div>
         </figure>
       </section>
