@@ -67,12 +67,6 @@ nav {
   margin-right: 0.5rem;
 }
 
-#intro {
-  max-width: 40rem;
-  margin: 1rem auto;
-  text-align: center;
-}
-
 .intro__hed {
   font-size: 2em;
   margin: 2rem auto 0.5rem auto;
@@ -114,6 +108,9 @@ nav {
 }
 
 #intro {
+  max-width: 40rem;
+  margin: 1rem auto;
+  text-align: center;
   font-family: Avenir;
   font-size: 18px;
   margin-bottom: 50px;
@@ -135,7 +132,7 @@ nav {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-end;
-  margin-top: 25px;
+  margin-top: 10%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -150,8 +147,8 @@ nav {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /* justify-content: space-between; */
-  margin: 0;
+  /* justify-content: flex-start; */
+  margin: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -173,8 +170,34 @@ nav {
   /* flex-direction: row; */
   /* flex-wrap: nowrap; */
   font-family: Avenir;
+  font-size: 20px;
+  text-align: center;
+}
+
+.flex-image-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.flex-image-text {
+  font-family: Avenir;
   font-size: 18px;
   text-align: center;
+}
+
+.flex-sources {
+  background-color: #285272;
+  /* border: 3px solid #285272; */
+  color: #fff;
+  border-radius: 25px;
+  font-family: Avenir;
+  font-size: 18px;
+  margin: auto;
+  width: 75%;
+  padding: 20px;
+  margin-top: 100px;
 }
 
 /* .background-tree {
