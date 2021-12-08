@@ -156,6 +156,10 @@ nav {
   text-align: center;
 }
 
+/* .background-tree {
+  background-image: url('static/tree.jpg');
+} */
+
 .tips {
   padding: 20px 20px 20px 20px;
 }
