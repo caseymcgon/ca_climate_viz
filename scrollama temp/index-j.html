@@ -13,7 +13,7 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        background-color: #f5f5f5; /* background + top bar color */
+        background-color: white; /* background + top bar color */
         padding: 1rem;
       }
 
@@ -27,7 +27,7 @@
       article {
         position: relative;
         padding: 0 1rem;
-        max-width: 20rem;
+        max-width: 50vh;
       }
 
       figure {
@@ -67,6 +67,9 @@
         width: 40vh;
         background-color: #3b3b3b; /* dark grey side box color */
         color: #fff;
+        border-radius: 25px;
+        font-family: Avenir;
+        font-size: 18px;
       }
 
       .step:last-child {
@@ -151,11 +154,13 @@
             </p>
           </div>
           <div class="step" data-step="2">
-            <h3>How to interact with this viz:</h3>
-            <ul>
-              <li>Click on the dropdown menu below the graph to filter out the line for “Worldwide” (and zoom in on country-level data)</li>
-              <li>Click on the specific countries in the legend on the right to highlight that country in the visualization.</li>
-            </ul>
+            <div class="tips">
+              <h3>Interaction tips:</h3>
+              <ul>
+                <li>Click on the dropdown menu below the graph to filter out the line for “Worldwide” (and zoom in on country-level data)</li>
+                <li>Click on the specific countries in the legend on the right to highlight that country in the visualization.</li>
+              </ul>
+            </div>
           </div>
           <div class="step" data-step="3">
             <p>
@@ -163,10 +168,12 @@
             </p>
           </div>
           <div class="step" data-step="4">
-            <h3>How to interact with this viz:</h3>
-            <ul>
-              <li>Click through the chart filter below the map on the left to choose a year to compare CO2  emissions from the selected year (on the left) to 2019 emissions (on the right).</li>
-            </ul>
+            <div class="tips">
+              <h3>Interaction tips:</h3>
+              <ul>
+                <li>Click through the chart filter below the map on the left to choose a year to compare CO2  emissions from the selected year (on the left) to 2019 emissions (on the right).</li>
+              </ul>
+            </div>
           </div>
           <div class="step" data-step="5">
             <p>
@@ -174,10 +181,12 @@
             </p>
           </div>
           <div class="step" data-step="6">
-            <h3>How to interact with this viz:</h3>
-            <ul>
-              <li>Adjust the slider on the top to examine any time period (represented in orange) and compare it to the blue time period, which represents recent rainfall trends from 2014-2020.</li>
-            </ul>
+            <div class="tips">
+              <h3>Interaction tips:</h3>
+              <ul>
+                <li>Adjust the slider on the top to examine any time period (represented in orange) and compare it to the blue time period, which represents recent rainfall trends from 2014-2020.</li>
+              </ul>
+            </div>
           </div>
           <div class="step" data-step="7">
             <p>
@@ -185,11 +194,13 @@
             </p>
           </div>
           <div class="step" data-step="8">
-            <h3>How to interact with this viz:</h3>
-            <ul>
-              <li>Mouseover counties to identify the county name</li>
-              <li>Scroll left and right to see more 2020 and 2021</li>
-            </ul>
+            <div class="tips">
+              <h3>Interaction tips:</h3>
+              <ul>
+                <li>Mouseover counties to identify the county name</li>
+                <li>Scroll left and right to see more 2020 and 2021</li>
+              </ul>
+            </div>
           </div>
           <div class="step" data-step="9">
             <p>
@@ -197,12 +208,14 @@
             </p>
           </div>
           <div class="step" data-step="10">
-            <h3>How to interact with this viz:</h3>
-            <ul>
-              <li>Mouseover each dot to get details on the corresponding year, temperature, and precipitation</li>
-              <li>Click and drag the slider below the main chart to filter on year range</li>
-              <li>Warning: unlike most scatterplots, time is not on the X-axis -- that’s the temperature. Instead, each dot is colored according to its decade -- the lighter they are the more recent they are.</li>
-            </ul>
+            <div class="tips">
+              <h3>Interaction tips:</h3>
+              <ul>
+                <li>Mouseover each dot to get details on the corresponding year, temperature, and precipitation</li>
+                <li>Click and drag the slider below the main chart to filter on year range</li>
+                <li>Warning: unlike most scatterplots, time is not on the X-axis -- that’s the temperature. Instead, each dot is colored according to its decade -- the lighter they are the more recent they are.</li>
+              </ul>
+            </div>
           </div>
           <div class="step" data-step="11">
             <p>
@@ -210,11 +223,13 @@
             </p>
           </div>
           <div class="step" data-step="12">
-            <h3>How to interact with this viz:</h3>
-            <ul>
-              <li>Press “Play” in the top left corner or use the slider to see every fire in the last 8 years</li>
-              <li>Mouseover any fire you’re interested in to get details on the acres burned, the day of fire ignition, and the county.</li>
-            </ul>
+            <div class="tips">
+              <h3>Interaction tips:</h3>
+              <ul>
+                <li>Press “Play” in the top left corner or use the slider to see every fire in the last 8 years</li>
+                <li>Mouseover any fire you’re interested in to get details on the acres burned, the day of fire ignition, and the county.</li>
+              </ul>
+            </div>
           </div>
           <div class="step" data-step="13">
             <p>
@@ -222,7 +237,18 @@
             </p>
           </div>
           <div class="step" data-step="14">
-            <p>STEP 7</p>
+            <div class="tips">
+              <h3>Interaction tips:</h3>
+              <ul>
+                <li>Press “Play” in the top left corner or use the slider to see every fire in the last 8 years</li>
+                <li>Mouseover any fire you’re interested in to get details on the acres burned, the day of fire ignition, and the county.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="step" data-step="15">
+            <p>
+              Intro
+            </p>
           </div>
         </article>
 
@@ -247,7 +273,9 @@
             </div>
           </div>
           <div class="step-content hide">
-            Joyce's viz!
+            <div class="flex-graph">
+              Joyce's viz!
+            </div>
           </div>
           <div class="step-content hide">
             <div class="flex-section">
@@ -278,7 +306,9 @@
             </div>
           </div>
           <div class="step-content hide">
-            <iframe width="45%" height="800" frameborder="0" src="https://observablehq.com/embed/@jennamorabito/dought-in-ca?cells=chart%2Cviewof+myslider1%2Cstyle"></iframe>
+            <!-- <div class="flex-graph"> -->
+              <iframe width="800" height="800" frameborder="0" src="https://observablehq.com/embed/@jennamorabito/dought-in-ca?cells=chart%2Cviewof+myslider1%2Cstyle"></iframe>
+            <!-- </div> -->
           </div>
           <div class="step-content hide">
             <div class="flex-section">
@@ -295,7 +325,8 @@
             </div>
           </div>
           <div class="step-content hide">
-            Meer's drought viz!
+              <!-- <div class='tableauPlaceholder' id='viz1638928589692' style='position: relative'><noscript><a href='#'><img alt='Mean percentage area with extreme or exceptional drought (D3-D4) over time, by CA County ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;w2&#47;w209_exploratory_viz_drought_by_percent_area_IMPROVED&#47;improved&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='w209_exploratory_viz_drought_by_percent_area_IMPROVED&#47;improved' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;w2&#47;w209_exploratory_viz_drought_by_percent_area_IMPROVED&#47;improved&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1638928589692');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+              <iframe width="100%" height="757" frameborder="0"  src="https://observablehq.com/embed/087b47335d4d0b30?cells=chart"></iframe>
           </div>
           <div class="step-content hide">
             <div class="flex-section">
@@ -313,7 +344,41 @@
             </div>
           </div>
           <div class="step-content hide">
-            Casey's viz!
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <style>
+                .error {
+                    color: red;
+                }
+              </style>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+            </head>
+            <body>
+              <div id="visCasey"></div>
+              <script>
+                (function(vegaEmbed) {
+                  var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "axis": {"grid": false, "labelFontSize": 25, "titleFontSize": 25}, "title": {"fontSize": 35}}, "vconcat": [{"layer": [{"mark": {"type": "point", "filled": true, "size": 150}, "encoding": {"color": {"type": "ordinal", "field": "decade", "legend": {"labelFontSize": 15, "tickCount": 10, "title": "Decades", "titleFontSize": 18}, "scale": {"domain": [1890, 1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020], "range": ["#000000", "#285272", "#5091F2", "#54ADFF", "#A1BCF7", "#DDC6F7", "#FDB1F2", "#FD72E8", "#FF7A8D", "#FF3B57", "#D41934", "#F26C0C", "#F29100", "#FFD000"]}}, "opacity": {"condition": {"value": 0.7, "selection": "selector058"}, "value": 0.1}, "tooltip": [{"type": "temporal", "field": "Year", "timeUnit": "year", "title": "Year"}, {"type": "quantitative", "field": "Avg Temp", "title": "Temp (\u00b0F)"}, {"type": "quantitative", "field": "Precipitation", "title": "Precip (in)"}], "x": {"type": "quantitative", "axis": {"title": "Average Summer Temperature Statewide (\u00b0F)"}, "field": "Avg Temp", "scale": {"domain": [64, 72]}}, "y": {"type": "quantitative", "axis": {"title": "Average Summer Precipitation Statewide (in)"}, "field": "Precipitation"}}, "selection": {"selector060": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}}, {"mark": {"type": "point", "color": "#000000", "filled": false, "size": 400}, "encoding": {"opacity": {"condition": {"value": 0.7, "selection": "selector058"}, "value": 0.1}, "shape": {"type": "ordinal", "field": "top20_fires", "legend": {"labelFontSize": 15, "tickCount": 10, "title": "Top 20 Fires (Acres)", "titleFontSize": 18}, "scale": {"domain": [1, 2, 5], "range": ["triangle", "circle", "square"]}}, "tooltip": [{"type": "temporal", "field": "Year", "timeUnit": "year", "title": "Year"}, {"type": "quantitative", "field": "Avg Temp", "title": "Temp (\u00b0F)"}, {"type": "quantitative", "field": "Precipitation", "title": "Precip (in)"}, {"type": "quantitative", "field": "top20_fires", "title": "Top 20 Fires"}, {"type": "nominal", "field": "Acres", "title": "Acres Burned by Top 20 Fires"}], "x": {"type": "quantitative", "axis": {"title": "Average Summer Temperature Statewide (\u00b0F)"}, "field": "Avg Temp", "scale": {"domain": [64, 72]}}, "y": {"type": "quantitative", "axis": {"title": "Average Summer Precipitation Statewide (in)"}, "field": "Precipitation"}}, "transform": [{"filter": {"field": "top20_fires", "gt": 0}}]}, {"layer": [{"mark": {"type": "rule", "color": "#000000", "fillOpacity": 0.1, "size": 1}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Precip_100_yr_avg", "format": ",.2f", "title": "Average Summer Precip 1895-1995 (in)"}], "y": {"type": "quantitative", "field": "Precip_100_yr_avg", "scale": {"domain": [0, 7]}}}}, {"mark": {"type": "rule", "color": "#000000", "size": 1}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Temp_100_yr_avg", "format": ",.2f", "title": "Average Summer Temp 1895-1995 (\u00b0F)"}], "x": {"type": "quantitative", "field": "Temp_100_yr_avg", "scale": {"domain": [64, 72]}}}}, {"mark": {"type": "text", "color": "#000000", "dx": 310, "dy": -15, "fontSize": 15, "text": "Avg. Precip (1895 - 1995)"}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Precip_100_yr_avg", "format": ",.2f", "title": "Average Summer Precip 1895-1995 (in)"}], "y": {"type": "quantitative", "field": "Precip_100_yr_avg", "scale": {"domain": [0, 7]}}}}, {"mark": {"type": "text", "angle": 270, "color": "#000000", "dx": -260, "dy": -15, "fontSize": 15, "text": "Avg. Temp (1895 - 1995)"}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Temp_100_yr_avg", "format": ",.2f", "title": "Average Summer Temp 1895-1995 (\u00b0F)"}], "x": {"type": "quantitative", "field": "Temp_100_yr_avg", "scale": {"domain": [64, 72]}}}}, {"layer": [{"mark": {"type": "text", "color": "#000000", "dx": -335, "dy": -350, "fontSize": 25, "text": "Cold & Wet"}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Precip_100_yr_avg", "format": ",.2f", "title": "Average Summer Precip 1895-1995 (in)"}], "y": {"type": "quantitative", "field": "Precip_100_yr_avg", "scale": {"domain": [0, 7]}}}}, {"mark": {"type": "text", "color": "#000000", "dx": 335, "dy": -350, "fontSize": 25, "text": "Hot & Wet"}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Precip_100_yr_avg", "format": ",.2f", "title": "Average Summer Precip 1895-1995 (in)"}], "y": {"type": "quantitative", "field": "Precip_100_yr_avg", "scale": {"domain": [0, 7]}}}}, {"mark": {"type": "text", "color": "#000000", "dx": -335, "dy": 310, "fontSize": 25, "text": "Cold & Dry"}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Precip_100_yr_avg", "format": ",.2f", "title": "Average Summer Precip 1895-1995 (in)"}], "y": {"type": "quantitative", "field": "Precip_100_yr_avg", "scale": {"domain": [0, 7]}}}}, {"mark": {"type": "text", "color": "#000000", "dx": 335, "dy": 310, "fontSize": 25, "text": "Hot & Dry"}, "encoding": {"tooltip": [{"type": "quantitative", "field": "Precip_100_yr_avg", "format": ",.2f", "title": "Average Summer Precip 1895-1995 (in)"}], "y": {"type": "quantitative", "field": "Precip_100_yr_avg", "scale": {"domain": [0, 7]}}}}]}]}], "height": 700, "resolve": {"scale": {"color": "independent"}}, "title": {"text": "California's Fire Season Climate 1895 - 2021", "subtitle": ["Average Temperature & Precipitation May-Oct"], "subtitleFontSize": 20}, "width": 800}, {"mark": "bar", "encoding": {"color": {"value": "#5096cc"}, "x": {"type": "temporal", "axis": {"title": "Year", "values": [1895, 1900, 1905, 1910, 1915, 1920, 1925, 1930, 1935, 1940, 1945, 1950, 1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020]}, "field": "Year", "timeUnit": "year"}}, "height": 40, "selection": {"selector058": {"type": "interval", "encodings": ["x"]}}, "width": 800}], "data": {"name": "data-e7c3f9c9073d6723a800bf7d820eb01c"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-e7c3f9c9073d6723a800bf7d820eb01c": [{"Year": "1895-01-01T00:00:00", "Avg Temp": 66.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.16, "Precip_100_yr_avg": 3.321188118811881, "decade": "1890", "Acres": "0", "top20_fires": 0.0, "slider_year": 1895}, {"Year": "1896-01-01T00:00:00", "Avg Temp": 67.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.83, "Precip_100_yr_avg": 3.321188118811881, "decade": "1890", "Acres": "0", "top20_fires": 0.0, "slider_year": 1896}, {"Year": "1897-01-01T00:00:00", "Avg Temp": 67.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.61, "Precip_100_yr_avg": 3.321188118811881, "decade": "1890", "Acres": "0", "top20_fires": 0.0, "slider_year": 1897}, {"Year": "1898-01-01T00:00:00", "Avg Temp": 67.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.81, "Precip_100_yr_avg": 3.321188118811881, "decade": "1890", "Acres": "0", "top20_fires": 0.0, "slider_year": 1898}, {"Year": "1899-01-01T00:00:00", "Avg Temp": 65.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 5.35, "Precip_100_yr_avg": 3.321188118811881, "decade": "1890", "Acres": "0", "top20_fires": 0.0, "slider_year": 1899}, {"Year": "1900-01-01T00:00:00", "Avg Temp": 66.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.92, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1900}, {"Year": "1901-01-01T00:00:00", "Avg Temp": 67.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.08, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1901}, {"Year": "1902-01-01T00:00:00", "Avg Temp": 66.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.13, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1902}, {"Year": "1903-01-01T00:00:00", "Avg Temp": 66.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.37, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1903}, {"Year": "1904-01-01T00:00:00", "Avg Temp": 67.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.79, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1904}, {"Year": "1905-01-01T00:00:00", "Avg Temp": 66.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.62, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1905}, {"Year": "1906-01-01T00:00:00", "Avg Temp": 67.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.27, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1906}, {"Year": "1907-01-01T00:00:00", "Avg Temp": 65.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.73, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1907}, {"Year": "1908-01-01T00:00:00", "Avg Temp": 65.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.96, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1908}, {"Year": "1909-01-01T00:00:00", "Avg Temp": 66.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.02, "Precip_100_yr_avg": 3.321188118811881, "decade": "1900", "Acres": "0", "top20_fires": 0.0, "slider_year": 1909}, {"Year": "1910-01-01T00:00:00", "Avg Temp": 67.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.99, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1910}, {"Year": "1911-01-01T00:00:00", "Avg Temp": 65.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.0, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1911}, {"Year": "1912-01-01T00:00:00", "Avg Temp": 65.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.39, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1912}, {"Year": "1913-01-01T00:00:00", "Avg Temp": 67.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.22, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1913}, {"Year": "1914-01-01T00:00:00", "Avg Temp": 66.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.21, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1914}, {"Year": "1915-01-01T00:00:00", "Avg Temp": 66.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.34, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1915}, {"Year": "1916-01-01T00:00:00", "Avg Temp": 64.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.52, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1916}, {"Year": "1917-01-01T00:00:00", "Avg Temp": 67.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.49, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1917}, {"Year": "1918-01-01T00:00:00", "Avg Temp": 67.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.53, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1918}, {"Year": "1919-01-01T00:00:00", "Avg Temp": 66.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.22, "Precip_100_yr_avg": 3.321188118811881, "decade": "1910", "Acres": "0", "top20_fires": 0.0, "slider_year": 1919}, {"Year": "1920-01-01T00:00:00", "Avg Temp": 65.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.77, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1920}, {"Year": "1921-01-01T00:00:00", "Avg Temp": 67.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.56, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1921}, {"Year": "1922-01-01T00:00:00", "Avg Temp": 68.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.58, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1922}, {"Year": "1923-01-01T00:00:00", "Avg Temp": 66.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.7, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1923}, {"Year": "1924-01-01T00:00:00", "Avg Temp": 67.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.36, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1924}, {"Year": "1925-01-01T00:00:00", "Avg Temp": 66.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.47, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1925}, {"Year": "1926-01-01T00:00:00", "Avg Temp": 68.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.36, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1926}, {"Year": "1927-01-01T00:00:00", "Avg Temp": 66.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.29, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1927}, {"Year": "1928-01-01T00:00:00", "Avg Temp": 67.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.27, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1928}, {"Year": "1929-01-01T00:00:00", "Avg Temp": 68.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.9, "Precip_100_yr_avg": 3.321188118811881, "decade": "1920", "Acres": "0", "top20_fires": 0.0, "slider_year": 1929}, {"Year": "1930-01-01T00:00:00", "Avg Temp": 66.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.48, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1930}, {"Year": "1931-01-01T00:00:00", "Avg Temp": 69.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.89, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1931}, {"Year": "1932-01-01T00:00:00", "Avg Temp": 67.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.16, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "220,000", "top20_fires": 1.0, "slider_year": 1932}, {"Year": "1933-01-01T00:00:00", "Avg Temp": 67.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.6, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1933}, {"Year": "1934-01-01T00:00:00", "Avg Temp": 68.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.19, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1934}, {"Year": "1935-01-01T00:00:00", "Avg Temp": 67.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.29, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1935}, {"Year": "1936-01-01T00:00:00", "Avg Temp": 69.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.52, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1936}, {"Year": "1937-01-01T00:00:00", "Avg Temp": 68.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.5, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1937}, {"Year": "1938-01-01T00:00:00", "Avg Temp": 68.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.02, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1938}, {"Year": "1939-01-01T00:00:00", "Avg Temp": 68.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.62, "Precip_100_yr_avg": 3.321188118811881, "decade": "1930", "Acres": "0", "top20_fires": 0.0, "slider_year": 1939}, {"Year": "1940-01-01T00:00:00", "Avg Temp": 68.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.22, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1940}, {"Year": "1941-01-01T00:00:00", "Avg Temp": 66.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.12, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1941}, {"Year": "1942-01-01T00:00:00", "Avg Temp": 67.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.89, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1942}, {"Year": "1943-01-01T00:00:00", "Avg Temp": 67.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.55, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1943}, {"Year": "1944-01-01T00:00:00", "Avg Temp": 66.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.72, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1944}, {"Year": "1945-01-01T00:00:00", "Avg Temp": 68.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 5.66, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1945}, {"Year": "1946-01-01T00:00:00", "Avg Temp": 66.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.49, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1946}, {"Year": "1947-01-01T00:00:00", "Avg Temp": 67.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.42, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1947}, {"Year": "1948-01-01T00:00:00", "Avg Temp": 66.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.5, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1948}, {"Year": "1949-01-01T00:00:00", "Avg Temp": 67.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.05, "Precip_100_yr_avg": 3.321188118811881, "decade": "1940", "Acres": "0", "top20_fires": 0.0, "slider_year": 1949}, {"Year": "1950-01-01T00:00:00", "Avg Temp": 67.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 5.2, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1950}, {"Year": "1951-01-01T00:00:00", "Avg Temp": 67.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.59, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1951}, {"Year": "1952-01-01T00:00:00", "Avg Temp": 68.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.16, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1952}, {"Year": "1953-01-01T00:00:00", "Avg Temp": 66.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.48, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1953}, {"Year": "1954-01-01T00:00:00", "Avg Temp": 67.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.83, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1954}, {"Year": "1955-01-01T00:00:00", "Avg Temp": 67.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.11, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1955}, {"Year": "1956-01-01T00:00:00", "Avg Temp": 67.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.5, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1956}, {"Year": "1957-01-01T00:00:00", "Avg Temp": 67.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 6.54, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1957}, {"Year": "1958-01-01T00:00:00", "Avg Temp": 69.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.38, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1958}, {"Year": "1959-01-01T00:00:00", "Avg Temp": 68.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.24, "Precip_100_yr_avg": 3.321188118811881, "decade": "1950", "Acres": "0", "top20_fires": 0.0, "slider_year": 1959}, {"Year": "1960-01-01T00:00:00", "Avg Temp": 69.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.04, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1960}, {"Year": "1961-01-01T00:00:00", "Avg Temp": 68.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.79, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1961}, {"Year": "1962-01-01T00:00:00", "Avg Temp": 67.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 5.45, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1962}, {"Year": "1963-01-01T00:00:00", "Avg Temp": 67.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.77, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1963}, {"Year": "1964-01-01T00:00:00", "Avg Temp": 67.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.18, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1964}, {"Year": "1965-01-01T00:00:00", "Avg Temp": 66.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.77, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1965}, {"Year": "1966-01-01T00:00:00", "Avg Temp": 68.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.24, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1966}, {"Year": "1967-01-01T00:00:00", "Avg Temp": 69.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.11, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1967}, {"Year": "1968-01-01T00:00:00", "Avg Temp": 67.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.21, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1968}, {"Year": "1969-01-01T00:00:00", "Avg Temp": 68.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.82, "Precip_100_yr_avg": 3.321188118811881, "decade": "1960", "Acres": "0", "top20_fires": 0.0, "slider_year": 1969}, {"Year": "1970-01-01T00:00:00", "Avg Temp": 68.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.14, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1970}, {"Year": "1971-01-01T00:00:00", "Avg Temp": 66.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.48, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1971}, {"Year": "1972-01-01T00:00:00", "Avg Temp": 67.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.62, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1972}, {"Year": "1973-01-01T00:00:00", "Avg Temp": 68.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.14, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1973}, {"Year": "1974-01-01T00:00:00", "Avg Temp": 68.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.45, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1974}, {"Year": "1975-01-01T00:00:00", "Avg Temp": 67.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.89, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1975}, {"Year": "1976-01-01T00:00:00", "Avg Temp": 67.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.11, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1976}, {"Year": "1977-01-01T00:00:00", "Avg Temp": 67.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.43, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "177,866", "top20_fires": 1.0, "slider_year": 1977}, {"Year": "1978-01-01T00:00:00", "Avg Temp": 68.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.4, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1978}, {"Year": "1979-01-01T00:00:00", "Avg Temp": 68.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.47, "Precip_100_yr_avg": 3.321188118811881, "decade": "1970", "Acres": "0", "top20_fires": 0.0, "slider_year": 1979}, {"Year": "1980-01-01T00:00:00", "Avg Temp": 67.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.24, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1980}, {"Year": "1981-01-01T00:00:00", "Avg Temp": 68.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.15, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1981}, {"Year": "1982-01-01T00:00:00", "Avg Temp": 66.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 5.41, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1982}, {"Year": "1983-01-01T00:00:00", "Avg Temp": 67.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.09, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1983}, {"Year": "1984-01-01T00:00:00", "Avg Temp": 69.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.9, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1984}, {"Year": "1985-01-01T00:00:00", "Avg Temp": 67.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.99, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1985}, {"Year": "1986-01-01T00:00:00", "Avg Temp": 67.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.16, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1986}, {"Year": "1987-01-01T00:00:00", "Avg Temp": 68.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.55, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1987}, {"Year": "1988-01-01T00:00:00", "Avg Temp": 69.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.19, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1988}, {"Year": "1989-01-01T00:00:00", "Avg Temp": 67.5, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.69, "Precip_100_yr_avg": 3.321188118811881, "decade": "1980", "Acres": "0", "top20_fires": 0.0, "slider_year": 1989}, {"Year": "1990-01-01T00:00:00", "Avg Temp": 68.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.16, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1990}, {"Year": "1991-01-01T00:00:00", "Avg Temp": 68.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.12, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1991}, {"Year": "1992-01-01T00:00:00", "Avg Temp": 69.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.56, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1992}, {"Year": "1993-01-01T00:00:00", "Avg Temp": 67.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.42, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1993}, {"Year": "1994-01-01T00:00:00", "Avg Temp": 68.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.53, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1994}, {"Year": "1995-01-01T00:00:00", "Avg Temp": 67.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.03, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1995}, {"Year": "1996-01-01T00:00:00", "Avg Temp": 69.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.42, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1996}, {"Year": "1997-01-01T00:00:00", "Avg Temp": 69.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.63, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1997}, {"Year": "1998-01-01T00:00:00", "Avg Temp": 66.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 5.63, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1998}, {"Year": "1999-01-01T00:00:00", "Avg Temp": 68.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.99, "Precip_100_yr_avg": 3.321188118811881, "decade": "1990", "Acres": "0", "top20_fires": 0.0, "slider_year": 1999}, {"Year": "2000-01-01T00:00:00", "Avg Temp": 68.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.13, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "0", "top20_fires": 0.0, "slider_year": 2000}, {"Year": "2001-01-01T00:00:00", "Avg Temp": 70.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.66, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "0", "top20_fires": 0.0, "slider_year": 2001}, {"Year": "2002-01-01T00:00:00", "Avg Temp": 69.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 0.9, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "0", "top20_fires": 0.0, "slider_year": 2002}, {"Year": "2003-01-01T00:00:00", "Avg Temp": 70.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.18, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "273,246", "top20_fires": 1.0, "slider_year": 2003}, {"Year": "2004-01-01T00:00:00", "Avg Temp": 68.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.64, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "0", "top20_fires": 0.0, "slider_year": 2004}, {"Year": "2005-01-01T00:00:00", "Avg Temp": 68.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.96, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "0", "top20_fires": 0.0, "slider_year": 2005}, {"Year": "2006-01-01T00:00:00", "Avg Temp": 69.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.6, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "0", "top20_fires": 0.0, "slider_year": 2006}, {"Year": "2007-01-01T00:00:00", "Avg Temp": 69.0, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.74, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "438,197", "top20_fires": 2.0, "slider_year": 2007}, {"Year": "2008-01-01T00:00:00", "Avg Temp": 69.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.57, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "192,038", "top20_fires": 1.0, "slider_year": 2008}, {"Year": "2009-01-01T00:00:00", "Avg Temp": 69.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.17, "Precip_100_yr_avg": 3.321188118811881, "decade": "2000", "Acres": "0", "top20_fires": 0.0, "slider_year": 2009}, {"Year": "2010-01-01T00:00:00", "Avg Temp": 67.7, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.66, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "0", "top20_fires": 0.0, "slider_year": 2010}, {"Year": "2011-01-01T00:00:00", "Avg Temp": 67.9, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.5, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "0", "top20_fires": 0.0, "slider_year": 2011}, {"Year": "2012-01-01T00:00:00", "Avg Temp": 70.2, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.17, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "0", "top20_fires": 0.0, "slider_year": 2012}, {"Year": "2013-01-01T00:00:00", "Avg Temp": 69.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.69, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "257,314", "top20_fires": 1.0, "slider_year": 2013}, {"Year": "2014-01-01T00:00:00", "Avg Temp": 71.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 2.86, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "0", "top20_fires": 0.0, "slider_year": 2014}, {"Year": "2015-01-01T00:00:00", "Avg Temp": 70.6, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.13, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "0", "top20_fires": 0.0, "slider_year": 2015}, {"Year": "2016-01-01T00:00:00", "Avg Temp": 69.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 5.08, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "0", "top20_fires": 0.0, "slider_year": 2016}, {"Year": "2017-01-01T00:00:00", "Avg Temp": 70.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.82, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "281,893", "top20_fires": 1.0, "slider_year": 2017}, {"Year": "2018-01-01T00:00:00", "Avg Temp": 70.4, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.75, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "688,774", "top20_fires": 2.0, "slider_year": 2018}, {"Year": "2019-01-01T00:00:00", "Avg Temp": 68.3, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 3.57, "Precip_100_yr_avg": 3.321188118811881, "decade": "2010", "Acres": "0", "top20_fires": 0.0, "slider_year": 2019}, {"Year": "2020-01-01T00:00:00", "Avg Temp": 71.8, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 1.6, "Precip_100_yr_avg": 3.321188118811881, "decade": "2020", "Acres": "2,491,322", "top20_fires": 5.0, "slider_year": 2020}, {"Year": "2021-01-01T00:00:00", "Avg Temp": 71.1, "Temp_100_yr_avg": 67.48613861386137, "Precipitation": 4.69, "Precip_100_yr_avg": 3.321188118811881, "decade": "2020", "Acres": "1,879,522", "top20_fires": 5.0, "slider_year": 2021}]}};
+                  var embedOpt = {"mode": "vega-lite"};
+
+                  function showError(el, error){
+                      el.innerHTML = ('<div class="error" style="color:red;">'
+                                      + '<p>JavaScript Error: ' + error.message + '</p>'
+                                      + "<p>This usually means there's a typo in your chart specification. "
+                                      + "See the javascript console for the full traceback.</p>"
+                                      + '</div>');
+                      throw error;
+                  }
+                  const el = document.getElementById('visCasey');
+                  vegaEmbed("#visCasey", spec, embedOpt)
+                    .catch(error => showError(el, error));
+                })(vegaEmbed);
+
+              </script>
+            </body>
+            </html>
           </div>
           <div class="step-content hide">
             <div class="flex-section">
@@ -349,7 +414,41 @@
             </div>
           </div>
           <div class="step-content hide">
-            Meer's hopeful viz!
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <style>
+                .error {
+                    color: red;
+                }
+              </style>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+            </head>
+            <body>
+              <div id="visMeer"></div>
+              <script>
+                (function(vegaEmbed) {
+                  var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-d6b39d6e3f39443ea12fcea56543cf86"}, "mark": {"type": "area", "tooltip": true}, "encoding": {"color": {"type": "nominal", "field": "Covered Emissions", "scale": {"range": ["#285272", "#febc38"]}}, "order": {"type": "nominal", "field": "Covered Emissions", "sort": "ascending"}, "x": {"type": "ordinal", "axis": {"labelAngle": 0}, "field": "Report\nYear", "title": "Year"}, "y": {"type": "quantitative", "field": "CO2 Emissions", "title": "CO2 Emissions (metric tons)"}}, "height": 300, "title": "Total CO2 Emissions in California over Time", "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-d6b39d6e3f39443ea12fcea56543cf86": [{"Report\nYear": 2011, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 353279252}, {"Report\nYear": 2011, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 74073090}, {"Report\nYear": 2012, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 355417517}, {"Report\nYear": 2012, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 85812298}, {"Report\nYear": 2013, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 348502683}, {"Report\nYear": 2013, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 90752642}, {"Report\nYear": 2014, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 342944389}, {"Report\nYear": 2014, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 92868634}, {"Report\nYear": 2015, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 340426795}, {"Report\nYear": 2015, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 91992424}, {"Report\nYear": 2016, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 324065927}, {"Report\nYear": 2016, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 88017355}, {"Report\nYear": 2017, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 320583407}, {"Report\nYear": 2017, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 83869210}, {"Report\nYear": 2018, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 319882522}, {"Report\nYear": 2018, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 84762775}, {"Report\nYear": 2019, "Covered Emissions": "Total Covered Emissions", "CO2 Emissions": 311192374}, {"Report\nYear": 2019, "Covered Emissions": "Total Non-Covered Emissions", "CO2 Emissions": 85717444}]}};
+                  var embedOpt = {"mode": "vega-lite"};
+
+                  function showError(el, error){
+                      el.innerHTML = ('<div class="error" style="color:red;">'
+                                      + '<p>JavaScript Error: ' + error.message + '</p>'
+                                      + "<p>This usually means there's a typo in your chart specification. "
+                                      + "See the javascript console for the full traceback.</p>"
+                                      + '</div>');
+                      throw error;
+                  }
+                  const el = document.getElementById('visMeer');
+                  vegaEmbed("#visMeer", spec, embedOpt)
+                    .catch(error => showError(el, error));
+                })(vegaEmbed);
+
+              </script>
+            </body>
+            </html>
           </div>
           <div class="step-content hide">
             <div class="flex-section">

@@ -114,6 +114,8 @@ nav {
 }
 
 #intro {
+  font-family: Avenir;
+  font-size: 18px;
   margin-bottom: 320px;
 }
 
@@ -142,7 +144,18 @@ nav {
   height: 100%;
 }
 
+.flex-graph {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
 .intro-text {
-  font-size: 24;
+  font-family: Avenir;
+  font-size: 18px;
   text-align: center;
+}
+
+.tips {
+  padding: 20px 20px 20px 20px;
 }
